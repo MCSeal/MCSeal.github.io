@@ -1,0 +1,23 @@
+
+.about-section{
+  
+}
+
+
+@media screen and (max-width:800px) {
+    .home-section{
+      width: 100vw;
+    }
+        
+    .home-section h2{
+      margin-botton: 1.5rem;
+      text-align: left;
+    }
+      
+    .home-section{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      
+    }
+}

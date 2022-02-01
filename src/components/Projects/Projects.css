@@ -1,0 +1,25 @@
+.project-section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section-inner{
+    position: relative;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+
+@media screen and (max-width:800px) {
+
+    .section-inner{
+        padding-left: 1rem;
+        Max-width: 90%;
+        line-height: 1.4;
+        border-radius: 25px;
+    }
+    .skills .section-inner{
+        padding-left: 3rem;
+    }  
+}
