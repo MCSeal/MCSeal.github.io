@@ -1,25 +1,59 @@
-.project-section{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.project-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.section-inner{
-    position: relative;
-    padding: 2rem;
-    background-color: #fff;
+.section-inner {
+  position: relative;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.projects-box {
+  min-height: 100vh;
+}
+.projects-animated {
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  display: flex;
+}
+.projects-animated__picture {
+}
+
+.text-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  background: #fff;
+  font-size: 1;
+}
+.title-wrapper {
+  justify-content: 'center';
+  align-items: 'center';
+  text-align: 'center';
+  width: 1;
+  height: '100%';
+}
+
+/* .okayest {
+  background-image: url(http://placekitten.com/200/300);
+} */
+
+@media screen and (max-width: 800px) {
+  .section-inner {
+    padding-left: 1rem;
+    max-width: 90%;
+    line-height: 1.4;
     border-radius: 25px;
-}
-
-
-@media screen and (max-width:800px) {
-
-    .section-inner{
-        padding-left: 1rem;
-        Max-width: 90%;
-        line-height: 1.4;
-        border-radius: 25px;
-    }
-    .skills .section-inner{
-        padding-left: 3rem;
-    }  
+  }
+  .skills .section-inner {
+    padding-left: 3rem;
+  }
 }
