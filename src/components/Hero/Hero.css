@@ -1,5 +1,11 @@
 .full-hero {
-  background-color: #f5f5f2;
+  background: url('../../data/images/Hero_Background.jpg') no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: -150px;
   padding-left: 2rem;
   box-sizing: border-box;
   height: 40rem;
@@ -8,6 +14,11 @@
 .bio-box .bio-link {
   display: block;
   margin: 2em auto 1em;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .bio-box {

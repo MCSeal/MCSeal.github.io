@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from './Projects.css';
 import projectsList from '../../data/projectsList.js';
-import ProjectCard from '../ProjectCard/ProjectCard.js';
+
 import { animated, useSprings } from 'react-spring';
 import pic from './pic.jpg';
 const Projects = () => {
@@ -11,8 +11,8 @@ const Projects = () => {
   const projs = useSprings(
     projectsList.length,
     projectsList.map((item, i) => ({
-      delay: isDelayed ? 250 * i : 0,
-      opacity: 1.3,
+      delay: isDelayed ? 1250 * i : 0,
+      opacity: 1.0,
       transform: 'translateY(0px)',
       overlayOpacity: i === index ? 0 : 1,
       textOpacity: i === index ? 1 : 0,
@@ -26,6 +26,7 @@ const Projects = () => {
       },
     }))
   );
+
   return (
     <div class="projects-box">
       {projs.map(
@@ -58,11 +59,13 @@ const Projects = () => {
             </animated.div>
             <animated.div class="text-wrapper" style={{ height: textHeight }}>
               <animated.div
-                class="projects-animated"
+                class="projects-animated__box"
                 style={{ opacity: textOpacity }}
               >
                 <animated.div fontSize={3} fontWeight={2}>
-                  <h2>{projectsList[i].title}</h2>
+                  <a href={projectsList[i].link} target="_blank">
+                    <h2>{projectsList[i].title}</h2>
+                  </a>
                 </animated.div>
                 {projectsList[i].description}
               </animated.div>

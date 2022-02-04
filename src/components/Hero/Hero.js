@@ -28,7 +28,7 @@ const Hero = () => {
 
       <div class="bio-info">
         <animated.div class="sliding-hero" style={styleName}>
-          <h2 class="name">Hi, I'm Mathew.</h2>
+          <h1 class="name">Hi, I'm Mathew.</h1>
         </animated.div>
         <animated.div class="sliding-hero" style={styleInfo}>
           <div class="desc"> I like to build interesting web applications.</div>

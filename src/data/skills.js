@@ -1,1 +1,11 @@
-export const skillList = [ "HTML5", "CSS", "JavaScript", "Node", "Mongoose",  "React", "Firebase", "HTML Templating", "Python", "Java"];
+export const skillList = [
+  'HTML5',
+  'CSS',
+  'JavaScript',
+  'Node',
+  'Mongoose',
+  'React',
+  'Firebase',
+  'HTML Templating',
+  'Python',
+];

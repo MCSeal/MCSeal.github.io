@@ -32,9 +32,17 @@ let projectsList = [
     picture: 'https://i.imgur.com/ZaVjHtF.jpg',
   },
   {
-    title: 'User Forum App',
+    title: 'Podcast Website',
     description:
       ' Website I made for a podcast, using jekyll and github pages. Includes jekyll and pure HTML/CSS for pop-out menu and blog posts.',
+    link: 'https://sealyoulater.github.io/',
+    github: 'https://github.com/SealYouLater/sealyoulater.github.io',
+    picture: 'https://i.imgur.com/ZaVjHtF.jpg',
+  },
+  {
+    title: 'Portfolio Website',
+    description:
+      'This website itself (how Meta), where I used react, and some animation libraries (React-Spring) to make some interesting effects.',
     link: 'https://sealyoulater.github.io/',
     github: 'https://github.com/SealYouLater/sealyoulater.github.io',
     picture: 'https://i.imgur.com/ZaVjHtF.jpg',

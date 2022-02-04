@@ -1,0 +1,9 @@
+.main-footer {
+  max-height: 30px;
+  background-color: #000;
+  color: #fff;
+  max-width: 100%;
+  z-index: 20;
+  opacity: 0.8;
+  padding: 1.5rem;
+}

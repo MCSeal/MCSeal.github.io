@@ -1,4 +1,7 @@
 .App {
+  font-family: 'OpenSans-Regular';
+  src: local('OpenSans-Regular'),
+    url(./data/fonts/OpenSans-Regular.ttf) format('ttf');
   text-align: center;
 }
 
@@ -6,31 +9,26 @@
   height: 40vmin;
   pointer-events: none;
 }
-.section-inner{
+.section-inner {
   position: relative;
   padding: 2rem;
   background-color: #fff;
   border-radius: 25px;
 }
 
-
-.home-section{
+.home-section {
   width: 100vw;
-  
 }
-.home-section h2{
+.home-section h2 {
   margin-botton: 1.5rem;
   text-align: center;
 }
-.home-section{
+.home-section {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #b4c3d6;
+  background-color: #fbfdffe1;
 }
-
-
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

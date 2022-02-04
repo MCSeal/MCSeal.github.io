@@ -10,7 +10,10 @@
   border-radius: 25px;
 }
 .projects-box {
-  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 4rem;
+  grid-column-gap: 50px;
 }
 .projects-animated {
   width: 100%;
@@ -22,16 +25,19 @@
   flex-direction: column;
   height: 300px;
   display: flex;
+  row-gap: 50px;
 }
 .projects-animated__picture {
 }
-
+.projects-animated__box {
+  padding-bottom: 6rem;
+}
 .text-wrapper {
   flex-direction: column;
   justify-content: center;
   text-align: center;
   height: 100%;
-  background: #fff;
+  background: #fbfdffe1;
   font-size: 1;
 }
 .title-wrapper {
@@ -41,10 +47,6 @@
   width: 1;
   height: '100%';
 }
-
-/* .okayest {
-  background-image: url(http://placekitten.com/200/300);
-} */
 
 @media screen and (max-width: 800px) {
   .section-inner {

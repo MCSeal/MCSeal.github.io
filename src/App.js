@@ -6,6 +6,7 @@ import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
+import Footer from './components/Footer/Footer';
 import { useSpring, animated } from 'react-spring';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <div className="secondary-section">
         <Skills />
       </div>
+      <Footer />
     </div>
   );
 }
