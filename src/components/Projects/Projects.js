@@ -28,51 +28,54 @@ const Projects = () => {
   );
 
   return (
-    <div class="projects-box">
-      {projs.map(
-        (
-          { opacity, transform, overlayOpacity, textOpacity, textHeight },
-          i
-        ) => (
-          <animated.div
-            class="projects-animated"
-            onClick={() => {
-              setIndex(i);
-              setIsDelayed(false);
-            }}
-            key={i}
-          >
+    <div class="title-box">
+      <h2>Projects</h2>
+      <div class="projects-box">
+        {projs.map(
+          (
+            { opacity, transform, overlayOpacity, textOpacity, textHeight },
+            i
+          ) => (
             <animated.div
               class="projects-animated"
-              style={{
-                backgroundImage: `url(${projectsList[i].picture})`,
-                opacity,
-                transform,
+              onClick={() => {
+                setIndex(i);
+                setIsDelayed(false);
               }}
+              key={i}
             >
               <animated.div
-                class="TitleWrapper"
-                style={{ opacity: overlayOpacity }}
+                class="projects-animated"
+                style={{
+                  backgroundImage: `url(${projectsList[i].picture})`,
+                  opacity,
+                  transform,
+                }}
               >
-                <h2>{projectsList[i].title}</h2>
-              </animated.div>
-            </animated.div>
-            <animated.div class="text-wrapper" style={{ height: textHeight }}>
-              <animated.div
-                class="projects-animated__box"
-                style={{ opacity: textOpacity }}
-              >
-                <animated.div fontSize={3} fontWeight={2}>
-                  <a href={projectsList[i].link} target="_blank">
-                    <h2>{projectsList[i].title}</h2>
-                  </a>
+                <animated.div
+                  class="TitleWrapper"
+                  style={{ opacity: overlayOpacity }}
+                >
+                  <h2>{projectsList[i].title}</h2>
                 </animated.div>
-                {projectsList[i].description}
+              </animated.div>
+              <animated.div class="text-wrapper" style={{ height: textHeight }}>
+                <animated.div
+                  class="projects-animated__box"
+                  style={{ opacity: textOpacity }}
+                >
+                  <animated.div fontSize={3} fontWeight={2}>
+                    <a href={projectsList[i].link} target="_blank">
+                      <h2>{projectsList[i].title}</h2>
+                    </a>
+                  </animated.div>
+                  {projectsList[i].description}
+                </animated.div>
               </animated.div>
             </animated.div>
-          </animated.div>
-        )
-      )}
+          )
+        )}
+      </div>
     </div>
   );
 };

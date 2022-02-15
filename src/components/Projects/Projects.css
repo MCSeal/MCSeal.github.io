@@ -9,21 +9,25 @@
   background-color: #fff;
   border-radius: 25px;
 }
+.title-box {
+  display: inline-block;
+}
 .projects-box {
   display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 4rem;
-  grid-column-gap: 50px;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem 12rem 3rem;
+  grid-column-gap: 150px;
+  justify-content: center;
 }
 .projects-animated {
-  width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  height: 300px;
+  height: 400px;
+  width: 100%;
   display: flex;
   row-gap: 50px;
 }

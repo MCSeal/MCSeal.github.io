@@ -1,7 +1,13 @@
 .about-section {
-  width: 40%;
+  align-content: center;
 }
-
+.home-section h3 {
+  text-align: center;
+}
+.about-section-inner {
+  width: 40%;
+  padding-left: 2rem;
+}
 @media screen and (max-width: 800px) {
   .home-section {
     width: 100vw;

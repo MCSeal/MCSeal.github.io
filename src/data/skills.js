@@ -7,5 +7,5 @@ export const skillList = [
   'React',
   'Firebase',
   'HTML Templating',
-  'Python',
+  'MERN Stack',
 ];
