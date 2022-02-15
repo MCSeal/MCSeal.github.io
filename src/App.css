@@ -26,6 +26,10 @@
 .home-section h2 {
   text-align: center;
 }
+
+.skills-contact h2 {
+  text-align: center;
+}
 .home-section {
   width: 100%;
   display: flex;

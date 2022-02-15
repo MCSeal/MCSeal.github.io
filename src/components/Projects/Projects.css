@@ -19,6 +19,9 @@
   grid-column-gap: 150px;
   justify-content: center;
 }
+.projects-animated:hover {
+  cursor: pointer;
+}
 .projects-animated {
   background-size: cover;
   background-position: center center;
@@ -52,6 +55,14 @@
   height: '100%';
 }
 
+.projects-title__parent {
+  white-space: nowrap;
+}
+.projects-title__child {
+  height: 1.5rem;
+  float: bottom;
+  color: #d1c3b1;
+}
 @media screen and (max-width: 800px) {
   .section-inner {
     padding-left: 1rem;
