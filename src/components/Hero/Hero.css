@@ -40,6 +40,11 @@
   padding-left: 2rem;
 }
 
+.contact_github {
+  height: 2rem;
+  float: bottom;
+  color: #d1c3b1;
+}
 .bio-box {
   font-size: 1rem;
   display: block;

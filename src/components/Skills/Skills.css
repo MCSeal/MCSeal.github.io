@@ -25,7 +25,7 @@
 }
 
 .skill-item {
-  box-shadow: 0 0 0 1px black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
   margin-right: 1rem;

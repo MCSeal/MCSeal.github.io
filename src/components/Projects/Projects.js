@@ -30,7 +30,7 @@ const Projects = () => {
   );
 
   return (
-    <div class="title-box">
+    <div class="title-box" id="projects">
       <h2>Projects</h2>
       <div class="projects-box">
         {projs.map(

@@ -4,7 +4,7 @@ import style from './Skills.css';
 import { skillList } from '../../data/skills';
 
 const Skills = () => (
-  <div class="skills-contact">
+  <div class="skills-contact" id="skills">
     <div class="skills">
       <div class="section-inner">
         <h2>Technical Skills & Technologies</h2>

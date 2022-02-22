@@ -29,6 +29,7 @@
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 50ms ease-in-out;
 }
 .header-nav > li:first-child a {
   color: #22a7f0;
