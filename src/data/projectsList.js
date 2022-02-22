@@ -34,7 +34,7 @@ let projectsList = [
   {
     title: 'Podcast Website',
     description:
-      ' Website I made for a podcast, using jekyll and github pages. Includes jekyll and pure HTML/CSS for pop-out menu and blog posts.',
+      ' Website I made for a podcast, using jekyll and github pages. Includes jekyll and pure HTML/CSS for pop-out menu and blog posts. Also makes use of templates for easy blog posts.',
     link: 'https://sealyoulater.github.io/',
     github: 'https://github.com/SealYouLater/sealyoulater.github.io',
     picture: 'https://i.imgur.com/ZaVjHtF.jpg',

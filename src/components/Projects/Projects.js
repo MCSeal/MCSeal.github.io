@@ -47,7 +47,7 @@ const Projects = () => {
               key={i}
             >
               <animated.div
-                class="projects-animated"
+                class="projects-animated projects-animated__box"
                 style={{
                   backgroundImage: `url(${projectsList[i].picture})`,
                   opacity,

@@ -34,11 +34,19 @@
   display: flex;
   row-gap: 50px;
 }
+
+.projects-animated__box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.projects-animated__main {
+}
+
 .projects-animated__picture {
 }
-.projects-animated__box {
-  padding-bottom: 6rem;
-}
+
 .text-wrapper {
   flex-direction: column;
   justify-content: center;

@@ -35,6 +35,12 @@
   text-align: center;
   align-content: center;
   padding-bottom: 1.2rem;
+  margin-top: 1.2rem;
+  height: 80px;
+}
+
+.checkmark {
+  padding-top: 1.2rem;
 }
 
 @media screen and (max-width: 800px) {

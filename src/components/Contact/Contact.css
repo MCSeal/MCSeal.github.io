@@ -1,0 +1,11 @@
+.secondary-section {
+  padding: 2rem;
+  padding-left: 8rem;
+  margin: auto;
+}
+.section-inner {
+  position: relative;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 25px;
+}
