@@ -38,7 +38,7 @@ const Hero = () => {
           </h1>
         </animated.div>
         <animated.div class="sliding-hero" style={styleInfo}>
-          <div class="desc"> I like to build interesting web applications.</div>
+          <div class="desc"> I like to build interesting Web Applications.</div>
         </animated.div>
       </div>
     </div>

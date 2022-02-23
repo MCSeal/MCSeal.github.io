@@ -5,6 +5,7 @@
   text-align: center;
 }
 .about-section-inner {
+  font-family: 'Open Sans';
   width: 75%;
   padding-left: 2rem;
   margin-left: 10%;
@@ -19,8 +20,6 @@
   }
 
   .home-section h2 {
-    margin-botton: 1.5rem;
-    text-align: left;
   }
 
   .home-section {
@@ -28,4 +27,11 @@
     display: flex;
     flex-direction: column;
   }
+
+  .about-section-inner {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
 }

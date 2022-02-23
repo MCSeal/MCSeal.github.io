@@ -31,16 +31,7 @@
   text-transform: uppercase;
   transition: all 50ms ease-in-out;
 }
-.header-nav > li:first-child a {
-  color: #22a7f0;
-}
-.header-nav > li:first-child a:hover {
-  color: #fff;
-}
-.header-nav > li ~ li {
-  border-left: 1px solid rgba(255, 255, 255, 0.3);
-  padding-left: 1em;
-}
+
 .header-nav a:hover,
 .header-nav a:active {
   color: #d1c3b1;
@@ -55,4 +46,14 @@ ul il {
   display: inline;
   float: left;
   margin-left: 10rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-header {
+    margin-left: -3.4rem;
+    width: 110vw;
+  }
+  .header-nav {
+    margin-left: 1rem;
+  }
 }

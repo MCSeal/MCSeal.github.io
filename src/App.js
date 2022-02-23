@@ -22,7 +22,7 @@ function App() {
         <About />
         <Projects />
       </div>
-      <div className="secondary-section">
+      <div>
         <Skills />
         <Contact />
       </div>

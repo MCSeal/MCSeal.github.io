@@ -58,7 +58,7 @@ const Projects = () => {
                   class="TitleWrapper"
                   style={{ opacity: overlayOpacity }}
                 >
-                  <h2>{projectsList[i].title}</h2>
+                  <h1>{projectsList[i].title}</h1>
                 </animated.div>
               </animated.div>
               <animated.div class="text-wrapper" style={{ height: textHeight }}>

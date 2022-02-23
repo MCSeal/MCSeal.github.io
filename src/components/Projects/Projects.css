@@ -34,7 +34,10 @@
   display: flex;
   row-gap: 50px;
 }
-
+.projects-animated h1 {
+  color: #8a6929;
+  font-weight: bold;
+}
 .projects-animated__box {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding-bottom: 2rem;
@@ -73,12 +76,25 @@
 }
 @media screen and (max-width: 800px) {
   .section-inner {
-    padding-left: 1rem;
     max-width: 90%;
     line-height: 1.4;
     border-radius: 25px;
   }
   .skills .section-inner {
     padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .projects-box {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 1rem;
+  }
+
+  .projects-animated {
+    margin-bottom: 3rem;
+  }
+  .projects-title__parent h2 {
+    text-align: center;
   }
 }
