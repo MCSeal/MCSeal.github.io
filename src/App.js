@@ -15,9 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-
       <Hero />
-
       <div className="home-section">
         <About />
         <Projects />

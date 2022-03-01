@@ -24,6 +24,10 @@
   padding: 10px;
 }
 
+.skills-contact {
+  padding-top: 3rem;
+}
+
 .skill-item {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
