@@ -53,8 +53,9 @@ const Contact = () => {
     <div class="contact" id="contact">
       <div class="section-inner__contact">
         <h2> Contact</h2>
-        Feel free to use the form below to contact me. I am also avaiable at
-        MathewCSeal@gmail.com.
+        Feel free to use the form below to contact me, although it may not work
+        over a firewall. I am also avaiable at MathewCSeal@gmail.com or through
+        my Github account.
       </div>
       {contactForm}
     </div>

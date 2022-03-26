@@ -49,7 +49,7 @@ const Projects = () => {
               <animated.div
                 class="projects-animated projects-animated__box"
                 style={{
-                  backgroundImage: `url(${projectsList[i].picture})`,
+                  backgroundImage: `url(../../../images/${projectsList[i].picture})`,
                   opacity,
                   transform,
                 }}
