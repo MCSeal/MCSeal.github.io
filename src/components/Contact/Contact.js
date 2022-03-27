@@ -45,7 +45,9 @@ const Contact = () => {
 
   if (messaged) {
     contactForm = (
-      <div class="section-inner__contact">Thanks for the message.</div>
+      <div class="section-inner__contact">
+        Thanks for the message, have a good day.
+      </div>
     );
   }
 
