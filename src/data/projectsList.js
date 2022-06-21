@@ -1,5 +1,13 @@
 let projectsList = [
   {
+    title: 'Wordle-Ish',
+    description:
+      'A clone of a popular game that I enjoy. This uses React frontend, and Mongodb/express backend. Also uses Vite and Typescript.',
+    link: 'https://wordleish-mern.herokuapp.com/',
+    github: 'https://github.com/MCSeal/wordleish',
+    picture: 'wordle.jpg',
+  },
+  {
     title: 'User Forum App',
     description:
       'This is a Node/Mongoose/Express app using EJS templates with a simple forum like page. This Includes authentication, sign-up, password reset and back-end using MongoDb/Mongoose. Email services by nodemailer.',
@@ -38,14 +46,6 @@ let projectsList = [
     link: 'https://sealyoulater.github.io/',
     github: 'https://github.com/SealYouLater/sealyoulater.github.io',
     picture: 'podcast_website.jpg',
-  },
-  {
-    title: 'Portfolio Website',
-    description:
-      'This website itself (how meta), where I used react, and some animation libraries (React-Spring) to make some interesting effects. Handling email form with Emailjs.',
-    link: 'https://MathewSeal.com/',
-    github: 'https://github.com/MCSeal/Portfolio-WebsiteV2',
-    picture: 'Hero_Background.jpg',
   },
 ];
 
