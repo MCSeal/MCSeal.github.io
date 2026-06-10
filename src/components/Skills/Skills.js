@@ -8,7 +8,7 @@ const Skills = () => (
       <p className="section-kicker">Skills</p>
       <h2 className="section-heading" id="skills-title">Technical skills</h2>
       <p className="section-lede">
-        I’m strongest in front-end web development, with enough backend and coursework experience to work across a small application and communicate well with a team.
+        My work is strongest on the front end, with enough backend, database, and deployment experience to contribute across a small web application and collaborate effectively with a team.
       </p>
 
       <div className="skills-grid">

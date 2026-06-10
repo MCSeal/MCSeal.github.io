@@ -34,9 +34,9 @@ const Contact = () => {
       <div className="section-inner contact-grid">
         <div>
           <p className="section-kicker">Contact</p>
-          <h2 className="section-heading" id="contact-title">Let’s talk about web work.</h2>
+          <h2 className="section-heading" id="contact-title">Let’s connect about web development work.</h2>
           <p className="section-lede">
-            The form is here if it works from your network. You can also reach me directly by email or through GitHub.
+            Use the form below or reach me directly by email or GitHub. I’m open to web development roles and project conversations.
           </p>
           <div className="contact-links" aria-label="Contact links">
             <a href="mailto:MathewCSeal@gmail.com">MathewCSeal@gmail.com</a>

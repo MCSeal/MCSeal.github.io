@@ -2,7 +2,7 @@ const projectsList = [
   {
     title: 'Wordle-Ish',
     description:
-      'A Wordle-inspired MERN project built as a personal coding challenge. The project shows front-end state handling, TypeScript/Vite setup, and a backend that supports the game experience.',
+      'A Wordle-inspired MERN application with a React front end and backend support for the game experience. The project demonstrates component-based UI work, application state handling, and a TypeScript/Vite setup.',
     stack: 'React, TypeScript, Vite, MongoDB, Express',
     link: 'https://wordleish-mern.herokuapp.com/',
     github: 'https://github.com/MCSeal/wordleish',
@@ -10,13 +10,13 @@ const projectsList = [
     highlights: [
       'Built a familiar game flow with reusable React components.',
       'Used a MongoDB/Express backend for server-side data handling.',
-      'Focused on a simple interface that is easy to understand quickly.',
+      'Designed a simple interface that is easy to understand quickly.',
     ],
   },
   {
     title: 'User Forum App',
     description:
-      'A forum-style Node application with user accounts and backend authentication features. It is one of my stronger examples of building beyond a static front end.',
+      'A forum-style Node application with account management, authentication, and server-rendered pages. It shows backend routing, user flows, and database-connected application logic.',
     stack: 'Node, Express, EJS, MongoDB, Mongoose',
     link: 'https://user-app-ms.herokuapp.com/',
     github: 'https://github.com/MCSeal/userApp',
@@ -30,7 +30,7 @@ const projectsList = [
   {
     title: 'RSVP Wedding App',
     description:
-      'A React mock-up of a wedding RSVP site with a Firebase-backed form and map integration. It was built around a real-world use case instead of a generic demo.',
+      'A React RSVP application with a Firebase-backed form and map integration. The project is built around a clear real-world workflow: collect guest responses and provide location information in one place.',
     stack: 'React, Firebase, Google Maps',
     link: 'https://frosty-swirles-3e0def.netlify.app/',
     github: 'https://github.com/MCSeal/wedding',
@@ -44,7 +44,7 @@ const projectsList = [
   {
     title: 'Recipe App',
     description:
-      'A browser-based recipe manager for creating, filtering, searching, and checking off recipe ingredients. It is a practical app focused on small daily tasks.',
+      'A browser-based recipe manager for creating, filtering, searching, and checking off recipe ingredients. It focuses on quick interactions and useful local data storage for everyday planning.',
     stack: 'JavaScript, local browser storage, HTML, CSS',
     link: 'https://recipe-app-ms.herokuapp.com/',
     github: 'https://github.com/MCSeal/Recipe-App',
@@ -58,7 +58,7 @@ const projectsList = [
   {
     title: 'Movie Favourite App',
     description:
-      'A movie search and favourites app that connects to an external movie database and allows users to keep and share a favourites list.',
+      'A movie search and favourites application that connects to an external movie database and lets users save and share curated lists.',
     stack: 'JavaScript, API integration, MongoDB, Mongoose',
     link: 'https://movie-scraper-ms.herokuapp.com/',
     github: 'https://github.com/MCSeal/Movie-Scraper',
@@ -72,7 +72,7 @@ const projectsList = [
   {
     title: 'Podcast Website',
     description:
-      'A content-focused website built for a podcast using GitHub Pages and Jekyll. This project is a good example of a simpler static site with maintainable templates.',
+      'A content-focused website built with GitHub Pages and Jekyll. The project demonstrates maintainable static-site structure, lightweight templates, and clear content organization.',
     stack: 'Jekyll, GitHub Pages, HTML, CSS',
     link: 'https://sealyoulater.github.io/',
     github: 'https://github.com/SealYouLater/sealyoulater.github.io',

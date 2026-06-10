@@ -15,7 +15,7 @@ const Projects = () => {
         <p className="section-kicker">Selected work</p>
         <h2 className="section-heading" id="projects-title">Projects</h2>
         <p className="section-lede">
-          A mix of personal web apps and experiments. Click a card to expand the details. The interaction is still an accordion, but now it also works properly with a keyboard and screen readers.
+          A selection of web applications and interface work. Click a card to expand the details, view the live project, or review the source code.
         </p>
 
         <div className="projects-grid">
