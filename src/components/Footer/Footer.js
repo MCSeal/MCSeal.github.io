@@ -1,14 +1,13 @@
 import React from 'react';
-import style from './Footer.css';
+import './Footer.css';
 
 const Footer = () => (
-  <header class="main-footer">
-    <ul aria-hidden="false">
-      <a class="bio-link" href="https://github.com/MCSeal" target="_blank">
-        <i class="fab fa-github fa-fw"></i>
-      </a>
-    </ul>
-  </header>
+  <footer className="main-footer">
+    <div className="footer-inner">
+      <p>© {new Date().getFullYear()} Mathew Seal</p>
+      <a href="https://github.com/MCSeal" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
 );
 
 export default Footer;

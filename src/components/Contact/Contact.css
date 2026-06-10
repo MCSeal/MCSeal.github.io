@@ -1,74 +1,76 @@
-.secondary-section {
-  padding: 2rem;
-  padding-left: 8rem;
-  margin: auto;
-}
-.section-inner {
-  position: relative;
-  padding: 2rem;
-  background-color: #fff;
-  border-radius: 25px;
-  text-align: center;
+.contact-section {
+  background: var(--surface-strong);
+  color: #ffffff;
 }
 
-.contact {
-  text-align: center;
+.contact-section .section-kicker,
+.contact-section .section-lede,
+.contact-section a {
+  color: #dff3ef;
 }
 
-.contact_form {
-  -moz-box-shadow: inset -3px -3px 10px #eee;
-  -webkit-box-shadow: inset -3px -3px 10px #eee;
-  box-shadow: inset -3px -3px 10px #eee;
-  border-radius: 5px;
-  padding-top: 1rem;
-  margin-top: 2rem;
-  width: 35%;
-  background-color: #2c6c6c;
-  opacity: 0.8;
-  display: inline-block;
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
 }
 
-.contact_form * {
-  margin-bottom: 10px;
-  padding-left: 1rem;
+.contact-links {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  font-weight: 700;
 }
 
-input[type='text'],
-select,
+.contact-card {
+  padding: clamp(1.25rem, 3vw, 2rem);
+  color: var(--text);
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+label {
+  font-weight: 700;
+}
+
+input,
 textarea {
-  width: 55%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: none;
+  width: 100%;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 0.8rem 0.9rem;
+  background: #ffffff;
+  color: var(--text);
 }
 
 textarea {
-  width: 90%;
-  height: 10rem;
+  resize: vertical;
 }
 
-.section-inner__contact {
-  margin-top: 3rem;
+.form-error {
+  color: #8a1f11;
+  background: #fff1ed;
+  border: 1px solid #f1b7aa;
+  border-radius: 12px;
+  padding: 0.8rem;
 }
 
-input[type='submit'] {
-  border-radius: 10px;
-  width: 130px;
-  height: 50px;
-  font-weight: bold;
-  font-size: 1.5rem;
-  background-color: #d1c3b1;
-  padding-right: 1rem;
+.form-status {
+  color: var(--accent-dark);
+  font-weight: 700;
 }
-@media screen and (max-width: 1100px) {
-  .contact_form {
-    padding: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 85%;
+
+@media (max-width: 860px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
   }
 }

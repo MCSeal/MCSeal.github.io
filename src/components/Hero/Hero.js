@@ -1,48 +1,40 @@
 import React from 'react';
-import { useSpring, animated } from 'react-spring';
-import style from './Hero.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import './Hero.css';
 
-const Hero = () => {
-  const stylePicture = useSpring({
-    from: { transform: 'translateX(-100%)' },
-    to: { transform: 'translateX(0%)' },
-    config: { duration: '1000' },
-  });
-  const styleName = useSpring({
-    from: { transform: 'translateX(-100%)' },
-    to: { transform: 'translateX(0%)' },
-    config: { duration: '1300' },
-  });
-  const styleInfo = useSpring({
-    from: { transform: 'translateX(-100%)' },
-    to: { transform: 'translateX(0%)' },
-    config: { duration: '1600' },
-  });
-  return (
-    <div class="full-hero" id="home">
-      <animated.div class="sliding-hero" style={stylePicture}>
-        <div class="bio-box">
-          <img src="https://pbs.twimg.com/profile_images/1293597689578430470/aCWj91ia_400x400.jpg" />
+const Hero = () => (
+  <section className="hero section" id="home" aria-labelledby="hero-title">
+    <div className="hero-inner section-inner">
+      <div className="hero-copy">
+        <p className="section-kicker">Web developer portfolio</p>
+        <h1 id="hero-title">I build practical web apps with clean interfaces and accessible front ends.</h1>
+        <p className="hero-lede">
+          Hi, I’m Mathew Seal. I’m a web developer with a science background, hands-on React and JavaScript experience, and a growing full-stack toolkit. I like projects that are useful, readable, and easy for people to use.
+        </p>
+        <div className="button-row hero-actions" aria-label="Portfolio actions">
+          <a className="button" href="#projects">View projects</a>
+          <a className="button button--secondary" href="#contact">Contact me</a>
+          <a className="button button--secondary" href="https://github.com/MCSeal" target="_blank" rel="noreferrer">GitHub</a>
         </div>
-      </animated.div>
-
-      <div class="bio-info">
-        <animated.div class="sliding-hero" style={styleName}>
-          <h1 class="name">
-            Hi, I'm Mathew{' '}
-            <a href="https://github.com/MCSeal" target="_blank">
-              <FontAwesomeIcon class="contact_github" icon={faGithub} />
-            </a>
-          </h1>
-        </animated.div>
-        <animated.div class="sliding-hero" style={styleInfo}>
-          <div class="desc"> I like to build interesting Web Applications.</div>
-        </animated.div>
       </div>
+      <aside className="hero-card card" aria-label="Portfolio highlights">
+        <img
+          className="hero-avatar"
+          src="https://pbs.twimg.com/profile_images/1293597689578430470/aCWj91ia_400x400.jpg"
+          alt="Mathew Seal"
+        />
+        <div>
+          <h2>Open to web developer roles</h2>
+          <p>Front-end, junior full-stack, accessibility-focused web work, and practical application development.</p>
+        </div>
+        <ul className="hero-tags" aria-label="Key strengths">
+          <li>React</li>
+          <li>JavaScript</li>
+          <li>Node</li>
+          <li>WCAG</li>
+        </ul>
+      </aside>
     </div>
-  );
-};
+  </section>
+);
 
 export default Hero;

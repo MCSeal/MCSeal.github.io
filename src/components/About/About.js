@@ -1,19 +1,23 @@
 import React from 'react';
-import style from './About.css';
+import './About.css';
 
 const About = () => (
-  <div class="about-section" id="about">
-    <h2> About</h2>
-    <h3>Biologist | Biotechnology | Web Developer?</h3>
-    <div class="about-section-inner">
-      Hello my name is Mathew Seal, I originally went to school for
-      Biotechnology and then Biology. I also took the first year of Computer
-      Science as electives; just for fun. For the last few years I have been
-      expanding my skill-set by jumping into the world of Web Development and
-      Web Technologies. With various technologies under my belt, and an interest
-      and curiosity to expand it; I would love the opportunity to work with you.
+  <section className="about-section section" id="about" aria-labelledby="about-title">
+    <div className="section-inner about-grid">
+      <div>
+        <p className="section-kicker">About</p>
+        <h2 className="section-heading" id="about-title">A developer who came into tech through curiosity, science, and building things.</h2>
+      </div>
+      <div className="about-card card">
+        <p>
+          I originally studied Biotechnology and Biology, then kept taking computer science and web development further because I liked the problem solving. That path has made me comfortable learning quickly, breaking problems down, and checking the details that affect real users.
+        </p>
+        <p>
+          My recent work is focused on modern web development, accessible interfaces, React, JavaScript, Node, and full-stack coursework with Java, MySQL, JSP, servlets, Android, Linux, and Git. I’m especially interested in teams that care about usable, maintainable software.
+        </p>
+      </div>
     </div>
-  </div>
+  </section>
 );
 
 export default About;

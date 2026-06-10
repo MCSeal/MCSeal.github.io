@@ -1,5 +1,4 @@
-import { React } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -8,23 +7,19 @@ import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import { useSpring, animated } from 'react-spring';
-import './data/fonts/OpenSans-Regular.ttf';
 
 function App() {
   return (
     <div className="App">
+      <a className="skip-link" href="#main-content">Skip to main content</a>
       <Header />
-      <Hero />
-      <div className="home-section">
+      <main id="main-content">
+        <Hero />
         <About />
         <Projects />
-      </div>
-      <div>
         <Skills />
         <Contact />
-      </div>
-
+      </main>
       <Footer />
     </div>
   );
