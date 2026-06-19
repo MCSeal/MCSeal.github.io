@@ -18,3 +18,8 @@
   color: #dff3ef;
   font-weight: 700;
 }
+
+.footer-links {
+  display: flex;
+  gap: 1.25rem;
+}

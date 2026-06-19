@@ -1,14 +1,14 @@
 export const skillGroups = [
   {
-    title: 'Front end',
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Responsive design', 'WCAG accessibility'],
+    title: 'Accessible front end',
+    skills: ['WCAG 2.1', 'HTML5', 'CSS3', 'JavaScript', 'React', 'Responsive design'],
   },
   {
-    title: 'Back end',
-    skills: ['Node', 'Express', 'MongoDB', 'Mongoose', 'REST concepts', 'Firebase'],
+    title: 'Platforms and back end',
+    skills: ['Drupal', 'Java', 'Node', 'Express', 'PHP', 'REST concepts'],
   },
   {
-    title: 'Coursework and tools',
-    skills: ['Java', 'JSP/Servlets', 'MySQL', 'Android Studio', 'Linux', 'Git and GitHub'],
+    title: 'Databases and tools',
+    skills: ['MySQL', 'MongoDB', 'Firebase', 'Git and GitHub', 'Linux', 'Adobe suite'],
   },
 ];

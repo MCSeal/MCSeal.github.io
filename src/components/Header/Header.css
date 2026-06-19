@@ -65,6 +65,21 @@
   text-decoration: underline;
 }
 
+.header-linkedin {
+  color: var(--accent-dark);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--accent-dark);
+  border-radius: 999px;
+  padding: 0.4rem 0.85rem;
+  white-space: nowrap;
+}
+
+.header-linkedin:hover {
+  background: var(--accent-soft);
+}
+
 @media (max-width: 680px) {
   .site-nav {
     align-items: flex-start;
@@ -77,5 +92,9 @@
     gap: 0.5rem;
     overflow-x: auto;
     padding-bottom: 0.25rem;
+  }
+
+  .header-linkedin {
+    align-self: flex-start;
   }
 }

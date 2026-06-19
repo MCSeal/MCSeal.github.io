@@ -40,6 +40,7 @@ const Contact = () => {
           </p>
           <div className="contact-links" aria-label="Contact links">
             <a href="mailto:MathewCSeal@gmail.com">MathewCSeal@gmail.com</a>
+            <a href="https://www.linkedin.com/in/mathewseal/" target="_blank" rel="noreferrer">LinkedIn</a>
             <a href="https://github.com/MCSeal" target="_blank" rel="noreferrer">GitHub profile</a>
           </div>
         </div>

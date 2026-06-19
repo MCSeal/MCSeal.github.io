@@ -6,14 +6,23 @@ const About = () => (
     <div className="section-inner about-grid">
       <div>
         <p className="section-kicker">About</p>
-        <h2 className="section-heading" id="about-title">A developer with a practical approach to clean, usable software.</h2>
+        <h2 className="section-heading" id="about-title">A developer who treats accessibility as a requirement, not an afterthought.</h2>
       </div>
       <div className="about-card card">
         <p>
-          I bring a mix of web development, scientific training, and analytical problem solving to the projects I work on. My background taught me to break down complex problems, test assumptions, and pay attention to the small details that affect the final result.
+          I've spent the past three years building and maintaining public-facing web
+          properties for the Government of Canada, where every page has to meet WCAG
+          and GOC accessibility standards before it ships. That work shaped how I
+          approach everything else: clean markup, real semantics, and interfaces that
+          hold up for users who rely on a keyboard or a screen reader, not just ones
+          who look good in a screenshot.
         </p>
         <p>
-          My current focus is modern web development: React, JavaScript, accessible interfaces, Node, Java, MySQL, Git, and responsive front-end work. I’m interested in teams that value thoughtful implementation, clear communication, and software that is easy to use and maintain.
+          Day to day I work in JavaScript, Java, React, Node, and Drupal, with a science
+          background that taught me to test assumptions and check the details that
+          actually break things in production. I'm interested in teams that take
+          accessibility and maintainability seriously and want software that's built
+          to last past launch day.
         </p>
       </div>
     </div>

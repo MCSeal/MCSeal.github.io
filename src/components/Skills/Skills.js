@@ -8,7 +8,9 @@ const Skills = () => (
       <p className="section-kicker">Skills</p>
       <h2 className="section-heading" id="skills-title">Technical skills</h2>
       <p className="section-lede">
-        My work is strongest on the front end, with enough backend, database, and deployment experience to contribute across a small web application and collaborate effectively with a team.
+        Front-end and accessibility work is where I spend most of my time, backed by
+        enough Drupal, backend, and database experience to take a project from a CMS
+        template to a deployed, standards-compliant page.
       </p>
 
       <div className="skills-grid">

@@ -11,11 +11,15 @@ const Header = () => (
         <span>Mathew Seal</span>
       </a>
       <ul className="nav-links">
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <a className="header-linkedin" href="https://www.linkedin.com/in/mathewseal/" target="_blank" rel="noreferrer">
+        LinkedIn
+      </a>
     </nav>
   </header>
 );
